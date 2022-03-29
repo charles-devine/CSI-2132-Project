@@ -42,7 +42,7 @@
             android:layout_height="75dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="Patient/Hygienest Login" />
+            android:text="Dentist/Hygienest Login" />
 
         <Button
             android:id="@+id/patient_id"
