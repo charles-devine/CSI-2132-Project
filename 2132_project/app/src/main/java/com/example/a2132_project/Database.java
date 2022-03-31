@@ -17,7 +17,6 @@ public class Database {
     public Database() {
         this.url = String.format(this.url, this.host, this.port, this.database);
         connect();
-        // this.disconnect();
         System.out.println("connection status: " + status);
     }
 
@@ -58,5 +57,4 @@ public class Database {
         }
         return c;
     }
-
 }
