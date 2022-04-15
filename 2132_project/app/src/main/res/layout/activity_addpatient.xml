@@ -45,7 +45,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
             </LinearLayout>
 
             <Space
@@ -70,7 +71,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
             </LinearLayout>
 
             <Space
@@ -95,7 +97,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
             </LinearLayout>
 
             <Space
@@ -120,7 +123,8 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Optional"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
             </LinearLayout>
 
             <Space
@@ -145,7 +149,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
             </LinearLayout>
 
             <Space
@@ -170,7 +175,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
             </LinearLayout>
 
             <Space
@@ -195,7 +201,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
             </LinearLayout>
 
             <Space
@@ -219,7 +226,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
             </LinearLayout>
 
             <Space
@@ -243,7 +251,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
             </LinearLayout>
 
             <Space
@@ -268,7 +277,8 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName"/>
+                    android:inputType="textPersonName"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
             </LinearLayout>
 
             <Space
@@ -339,16 +349,16 @@
                 android:layout_height="25dp" />
 
             <Button
-                android:id="@+id/createXMLBranchProfileBtn"
+                android:id="@+id/addPatientBtn"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:text="Create Branch Profile" />
+                android:text="Add Patient" />
 
             <Button
-                android:id="@+id/backToEmployeePageFromBranchProfileBtn"
+                android:id="@+id/backToReceptionistFromAddPatientBtn"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:text="Back to Employee Functionality" />
+                android:text="Back to Receptionist Page" />
 
         </LinearLayout>
     </ScrollView>
