@@ -21,7 +21,6 @@ public class Database {
     }
 
     private void connect() {
-
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -36,7 +35,6 @@ public class Database {
                     e.printStackTrace();
                 }
             }
-
         });
         thread.start();
         try {
